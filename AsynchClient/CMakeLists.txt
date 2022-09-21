@@ -13,7 +13,7 @@ set(Sources
 
 add_subdirectory(../AsynchLib ../AsynchLib)
 
-add_executable(${PROJECT_NAME} ${Sources})
+add_library(${PROJECT_NAME} STATIC ${Sources})
 
 target_include_directories(${PROJECT_NAME}
     PUBLIC ./include

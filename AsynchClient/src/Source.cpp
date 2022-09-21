@@ -108,7 +108,7 @@ int main()
 	return 0;
 	**/
 
-	///**
+	/**
 	const int bufSize = 256;
 
 	Client client("127.0.0.1", 4791);
@@ -128,5 +128,5 @@ int main()
 
 	system("pause");
 	return 0;
-	//**/
+	**/
 }
