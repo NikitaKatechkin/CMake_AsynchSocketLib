@@ -1,4 +1,5 @@
-#pragma once
+#ifndef IPENDPOINT_H
+#define IPENDPOINT_H
 
 #include "ServiceStructs.h"
 
@@ -50,3 +51,5 @@ namespace CustomSocket
 		uint16_t m_port = 0;
 	};
 }
+
+#endif

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CALLBACKSERVER_H
+#define CALLBACKSERVER_H
 
 #include <Server.h>
 
@@ -19,3 +20,5 @@ protected:
 	virtual void OnConnect(const std::string& ip, const uint16_t port) override;
 	virtual void OnDisconnect(const std::string& ip, const uint16_t port) override;
 };
+
+#endif

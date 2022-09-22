@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CALLBACKCLIENT_H
+#define CALLBACKCLIENT_H
 
 #include <Client.h>
 
@@ -15,3 +16,5 @@ protected:
 	virtual void OnRecieve(char* data, int& bytesRecieved);
 	virtual void OnSend(const char* data, int& bytesSent);
 };
+
+#endif

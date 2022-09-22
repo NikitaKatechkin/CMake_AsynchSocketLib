@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SOCKET_H
+#define SOCKET_H
 
 #include "ServiceStructs.h"
 #include "IPEndpoint.h"
@@ -52,3 +53,5 @@ namespace CustomSocket
 		IPVersion m_IPVersion = IPVersion::IPv4;
 	};
 }
+
+#endif

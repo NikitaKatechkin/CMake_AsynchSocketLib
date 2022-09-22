@@ -1,11 +1,11 @@
-#include <IncludeMe.h>
 #include <Server.h>
+
 #include <iostream>
 #include <thread>
 
 int main()
 {
-	///**
+	/**
 	const int bufSize = 256;
 
 	Server server("127.0.0.1", 4790);
@@ -29,6 +29,6 @@ int main()
 	server.Stop();
 
 	system("pause");
-	//**/
 	return 0;
+	**/
 }

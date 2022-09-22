@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CLIENT_H
+#define CLIENT_H
 
 #include <IncludeMe.h>
 
@@ -87,3 +88,5 @@ protected:
 	std::mutex m_coutMutex;
 	std::mutex m_operationMutex;
 };
+
+#endif

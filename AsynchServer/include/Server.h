@@ -1,6 +1,8 @@
-#pragma once
+#ifndef SERVER_H
+#define SERVER_H
 
 #include <IncludeMe.h>
+
 #include <vector>
 #include <thread>
 #include <unordered_map>
@@ -121,3 +123,5 @@ protected:
 	std::mutex m_printLogMutex;
 	std::mutex m_operationMutex;
 };
+
+#endif
